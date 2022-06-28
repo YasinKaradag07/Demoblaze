@@ -14,5 +14,4 @@ public abstract class BasePage {
         Driver.getDriver().findElement(By.partialLinkText(link)).click();
     }
 
-
 }
